@@ -24,7 +24,8 @@ body {
   text-decoration: none;
   border: none;
   list-style: none;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   margin: 0;
 }
 
@@ -274,7 +275,7 @@ button {
   line-height: 1.75;
   text-align: center;
   padding: 9px 20px;
-  background-color: #d9e021;
+  background-color: #cc0033;
   margin: 0 -20px 20px -20px;
 }
 
