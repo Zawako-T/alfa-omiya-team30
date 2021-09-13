@@ -9,16 +9,18 @@
           box-sizing: border-box;
 }
 
-＠font-face{
-  font-family: 'MyFont';
-  src: url(/JF-Dot-Ayu18.ttf);
 
-}
 
 html {
   font-size: 18px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+＠font-face{
+  font-family: 'MyFont';
+  src: url(/JF-Dot-Ayu18.ttf);
+
 }
 
 body {
