@@ -17,10 +17,9 @@ html {
           box-sizing: border-box;
 }
 
-＠font-face{
-  font-family: 'MyFont';
-  src: url(/JF-Dot-Ayu18.ttf);
-
+@font-face {
+	font-family: MyFont;
+	src: url('https://kuneoresearch.com/wp-content/themes/stinger5verkuneo/font/PixelMplus10-Regular.ttf') format("truetype");
 }
 
 body {
