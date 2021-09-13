@@ -9,6 +9,12 @@
           box-sizing: border-box;
 }
 
+＠font-face{
+  font-family: 'MyFont';
+  src: url(JF-Dot-Ayu18.ttf);
+
+}
+
 html {
   font-size: 18px;
   -webkit-box-sizing: border-box;
@@ -17,7 +23,7 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: "ドット明朝　16 Std M"
+  font-family: "MyFont";
   font-size: 18px;
   line-height: 1.77778;
   font-weight: bold;
