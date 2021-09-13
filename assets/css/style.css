@@ -19,7 +19,7 @@ html {
 
 @font-face {
 	font-family: MyFont;
-	src: url('https://kuneoresearch.com/wp-content/themes/stinger5verkuneo/font/PixelMplus10-Regular.ttf') format("truetype");
+	src: url(/module/PixelMplus10-Regular.ttf) format("truetype");
 }
 
 body {
