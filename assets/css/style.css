@@ -17,14 +17,11 @@ html {
           box-sizing: border-box;
 }
 
-@font-face {
-	font-family: 'MyFont';
-	src: url(/module/PixelMplus10-Regular.ttf) format("truetype");
-}
+
 
 body {
   overflow-x: hidden;
-  font-family: "MyFont";
+  font-family: 'DotGothic16', sans-serif;
   font-size: 18px;
   line-height: 1.77778;
   font-weight: bold;
@@ -82,6 +79,7 @@ input[type=text] {
 }
 
 button {
+  font-family: 'DotGothic16', sans-serif;
   cursor: pointer;
   display: block;
   border: none;
@@ -282,8 +280,14 @@ button {
   line-height: 1.75;
   text-align: center;
   padding: 9px 20px;
-  background-color: #cc0033;
   margin: 0 -20px 20px -20px;
+  color: #000;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  box-shadow: inset 1px 1px #dfdfdf, 1px 0 #000, 0 1px #000, 1px 1px #000;
+  background-color: silver;
 }
 
 .section-title__stage {
