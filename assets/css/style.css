@@ -63,18 +63,22 @@ input[type=text] {
 }
 
 ::-webkit-input-placeholder {
+    font-family: 'DotGothic16', sans-serif;
   color: #999;
 }
 
 :-ms-input-placeholder {
+    font-family: 'DotGothic16', sans-serif;
   color: #999;
 }
 
 ::-ms-input-placeholder {
+    font-family: 'DotGothic16', sans-serif;
   color: #999;
 }
 
 ::placeholder {
+    font-family: 'DotGothic16', sans-serif;
   color: #999;
 }
 
