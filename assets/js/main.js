@@ -107,7 +107,7 @@ app.component('answer-input', {
   },
   template: `
     <div class="answer__container">
-      <div class="answer"　style="font-family: 'DotGothic16', sans-serif;">
+      <div class="answer">
         <input type="text" v-model="inputAnswer" placeholder="ここに答えを入力しよう">
       </div>
       <p v-if="message === ngMessage" class="err-message">{{ message }}</p>
