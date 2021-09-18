@@ -28,7 +28,7 @@ body {
   text-decoration: none;
   border: none;
   list-style: none;
-  background-color: #000;
+background-color: #080404;  
   color: #fff;
   margin: 0;
 }
@@ -132,6 +132,7 @@ button {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+  background-color: #080404;
 }
 
 @media screen and (max-width: 1100px) {
@@ -147,14 +148,17 @@ button {
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   gap: 10px;
+  background-color: #080404;
 }
 
 .row + .row {
   margin-top: 20px;
+  background-color: #080404;
 }
 
 .column {
   width: 100%;
+  background-color: #080404;
 }
 
 .card {
@@ -250,7 +254,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #000;
+background-color: #080404;
 }
 
 .bg-color--subcolor {
@@ -382,8 +386,7 @@ button {
 * header
 *****************/
 .header {
-  background-color: #000;
-  height: 60px;
+background-color: #080404;  height: 60px;
 }
 
 .header .container {
