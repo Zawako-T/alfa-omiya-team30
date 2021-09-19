@@ -28,7 +28,7 @@ body {
   text-decoration: none;
   border: none;
   list-style: none;
-background-color: #080404;  
+background-color: #080404;
   color: #fff;
   margin: 0;
 }
@@ -189,7 +189,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #fcee21;
+  background-color: #e60012;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -257,7 +257,6 @@ background-color: #080404;
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
 }
 
 .bg-color--gray {

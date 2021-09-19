@@ -18,15 +18,15 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: 'おわり',
+          q1: '红色',
         },
         stage2: {
-          q1: '習近平',
+          q1: '基',
           // q2: 'えええ',
           // q3: 'おおお'
         },
         stage3: {
-          q1: '天安門事件',
+          q1: '因',
           // q2: 'かかか',
           // q3: 'ききき',
         }
@@ -79,7 +79,7 @@ const app = Vue.createApp({
       this.clear[stage] = result;
       /* 最終ステージの入力を判定します。 */
       if ( this.clear[stage] === true && final === 'final' ) {
-        window.location.href = 'final.html';
+        window.location.href = 'lastPassword.html';
       }
     },
     /* クリア画面「次のステージへ」ボタンをクリックした時の動作を設定します
@@ -120,12 +120,11 @@ app.component('answer-input', {
         this.message = this.okMessage;
         this.$emit('answerInput', true);
       } else { // 一致しない場合
-        this.message = this.ngMessage; 
+        this.message = this.ngMessage;
         this.$emit('answerInput', false);
       }
     },
   }
 })
-
 
 app.mount('#stage')
